@@ -18,10 +18,12 @@ boxpop{
 
 boxpopbg{
     display: none;
-    align-self: auto;
-    background-attachment: fixed;
+    align-self: center;
+    background-attachment: center;
     justify-content: center;
     background-color: rgb(255, 250, 250);
+    position: fixed;
+    inset: 0;
 }
 
  #boxpop:checked ~ .boxpopbg {

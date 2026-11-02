@@ -29,3 +29,10 @@ boxpopbg{
  #boxpop:checked ~ .boxpopbg {
             display: flex;
         }
+
+.buttonclose{
+    display: inline-flex;
+    margin-inline: fixed;
+    
+
+}

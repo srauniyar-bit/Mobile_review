@@ -8,12 +8,27 @@ margin:0%;
 
 }
 
-h1 {
-    font-size: 110px;
-    font-weight: bold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+header {
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:left;
+    padding:40px;
+    background: #222;
+    color: white;
 }
+
+
+.buttonopen{
+    display:inline-block;
+    background: #0000;
+    color: black;
+    border-radius: 100px;
+}
+
+
+
 
 boxpop{
     display:none;

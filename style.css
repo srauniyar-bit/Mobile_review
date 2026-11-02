@@ -10,14 +10,25 @@ margin:0%;
 
 
 header {
-    font-size: 40px;
+    padding: 30px;
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:left;
-    padding:40px;
     background: #222;
     color: white;
+    border-radius: 30px;
 }
+header h1{
+    font-size:60px;
+    margin: 0%;
+
+}
+header h6{
+    font-size:14px;
+    margin: 0%;
+    
+}
+
 
 
 .buttonopen{

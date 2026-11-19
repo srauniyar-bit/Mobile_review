@@ -18,11 +18,19 @@ $sql ="insert into mobile_reviews
   values 
   ('$name','$reviewername','$review','$price')";
 
+
+
+if(mysqli_query($con,$sql)){
+
+header("location:index.php");
+exit();
+
+
+} else {
+echo "error:".mysqli_error($con);
 }
 
-
-
-
+}
 
 
 

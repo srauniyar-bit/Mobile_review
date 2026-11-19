@@ -33,8 +33,10 @@ header h6{
 
 .buttonopen{
     display:inline-block;
-    background: #0000;
-    color: black;
+    background: #222;
+    color: white;
+    padding:10px;
+    cursor:pointer;
     border-radius: 100px;
 }
 
@@ -47,10 +49,10 @@ boxpop{
 
 boxpopbg{
     display: none;
-    align-self: center;
+    align-items: center;
     background-attachment: center;
     justify-content: center;
-    background-color: rgb(255, 250, 250);
+    background-color: rgba(0,0,0,0.5);
     position: fixed;
     inset: 0;
 }
